@@ -1,1 +1,1 @@
-https://github.com/qrismus/posmotri_v_okno
+https://github.com/qrismus/slozhno-sosredotochitsy
