@@ -1,1 +1,1 @@
-https://github.com/qrismus/slozhno-sosredotochitsy
+https://github.com/qrismus/slozhno-sosredotochitsya
