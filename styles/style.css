@@ -247,16 +247,12 @@
     gap: 80px;
   }
 
-  .container-why {
-    grid-template-columns: repeat(3, 1fr);
+  .container {
+    grid-template-columns: 1fr 2fr;
   }
-  
+ 
   .container-why__card {
-    grid-column: 2 / 4;
-  }
-
-  .container-what {
-    grid-template-columns: repeat(3, 1fr);
+    grid-column: 2 / 3;
   }
 
   .container-what__title {
@@ -266,10 +262,6 @@
 
   .container-what__card {
     grid-column: 1 / -1;
-  }
-
-  .container-how {
-    grid-template-columns: 1fr 2fr;
   }
 
   .gallery {
@@ -324,6 +316,14 @@
   .header__title {
     text-shadow: 4px 4px 0 #FF0070;
   }
+  
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .container-why__card {
+    grid-column: 2 / 4;
+  }
 
   .container-what__card {
     display: flex;
@@ -343,6 +343,10 @@
   .container-what__card:nth-child(4) {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
+  }
+
+  .container-how__card {
+    grid-column: 2 / 4;
   }
 
   .footer__title {
